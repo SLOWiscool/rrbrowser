@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrome 2.0 - Next Level Browser</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0a0a14, #1a1a2e);
+      color: #fff;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: rgba(0,0,0,0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #00ffff;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #00ffff;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      background: rgba(255, 255, 255, 0.05);
+      margin-bottom: 0.5rem;
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    ul li:hover {
+      background: rgba(0, 255, 255, 0.1);
+    }
+
+    .download-btn {
+      display: inline-block;
+      background: #00ffff;
+      color: #000;
+      padding: 1rem 2rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .download-btn:hover {
+      background: #00cccc;
+      transform: scale(1.05);
+    }
+
+    footer {
+      padding: 1rem;
+      text-align: center;
+      background: rgba(0,0,0,0.4);
+      color: #aaa;
+    }
+
+    /* Features Grid */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .feature-card {
+      background: rgba(255,255,255,0.05);
+      padding: 1.5rem;
+      border-radius: 12px;
+      transition: transform 0.2s, background 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      background: rgba(0, 255, 255, 0.1);
+    }
+
+    .feature-card h3 {
+      margin-bottom: 0.5rem;
+      color: #00ffff;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chrome 2.0</h1>
+    <p>The next level of browsing — faster, smarter, and sleek.</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Chrome 2.0</h2>
+      <p>Chrome 2.0 is a custom-built browser designed by Master Adam. It's lightweight, stylish, and includes all the modern features you need to browse the web efficiently.</p>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <div class="features">
+        <div class="feature-card">
+          <h3>Speed</h3>
+          <p>Loads pages faster than ever with optimized rendering.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Privacy</h3>
+          <p>Enhanced privacy mode to keep your browsing secure.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Custom UI</h3>
+          <p>Modern and sleek interface with dark mode by default.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Extensions</h3>
+          <p>Supports your favorite browser extensions seamlessly.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="download">
+      <h2>Download Chrome 2.0</h2>
+      <p>Ready to try Chrome 2.0? Click the button below to download the latest version:</p>
+      <a href="downloads/Chrome2.0.exe" class="download-btn" download>Download Now</a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Master Adam | Chrome 2.0
+  </footer>
+</body>
+</html>
